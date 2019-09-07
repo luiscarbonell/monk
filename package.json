@@ -1,0 +1,28 @@
+{
+  "name": "munk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "chai": "^4.2.0",
+    "nodemon": "^1.19.2",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscarbonell/monk.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/luiscarbonell/monk/issues"
+  },
+  "homepage": "https://github.com/luiscarbonell/monk#readme"
+}
