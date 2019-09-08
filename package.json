@@ -1,6 +1,6 @@
 {
   "name": "munk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/munk.commonjs2.js",
   "browser": "dist/munk.window.js",
