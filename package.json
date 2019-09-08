@@ -5,6 +5,8 @@
   "main": "dist/munk.commonjs2.js",
   "module": "dist/munk.commonjs2.js",
   "browser": "dist/munk.window.js",
+  "unpkg": "dist/munk.umd.js",
+  "jsdeliver": "dist/munk.umd.js",
   "dependencies": {
     "browserify": "^16.5.0",
     "chai": "^4.2.0",
