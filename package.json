@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "",
   "main": "dist/munk.commonjs2.js",
+  "module": "dist/munk.commonjs2.js",
   "browser": "dist/munk.window.js",
   "dependencies": {
     "browserify": "^16.5.0",
