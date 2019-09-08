@@ -13,20 +13,24 @@ function config(target) {
   }
 }
 
-module.exports = [
-  config("var"),
-  config("assign"),
-  config("this"),
-  config("window"),
-  config("self"),
-  config("global"),
-  config("commonjs"),
-  config("commonjs2"),
-  config("commonjs-module"),
-  config("amd"),
-  config("amd-require"),
-  config("umd"),
-  config("umd2"),
-  config("jsonp"),
-  config("system")
-];
+const targets = ["var", "assign", "this", "window", "self", "global", "commonjs", "commonjs2", "commonjs-module", "amd", "umd", "umd2", "jsonp"]
+
+module.exports = targets.map(config);
+
+// module.exports = [
+//   config("var"),
+//   config("assign"),
+//   config("this"),
+//   config("window"),
+//   config("self"),
+//   config("global"),
+//   config("commonjs"),
+//   config("commonjs2"),
+//   config("commonjs-module"),
+//   config("amd"),
+//   config("amd-require"),
+//   config("umd"),
+//   config("umd2"),
+//   config("jsonp"),
+//   config("system")
+// ];
