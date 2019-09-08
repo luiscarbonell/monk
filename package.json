@@ -2,7 +2,8 @@
   "name": "munk",
   "version": "1.0.4",
   "description": "",
-  "main": "dist/bundle.js",
+  "main": "dist/munk.commonjs2.js",
+  "browser": "dist/munk.window.js",
   "dependencies": {
     "browserify": "^16.5.0",
     "chai": "^4.2.0",
